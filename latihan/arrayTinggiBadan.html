@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Tinggi Badan yang Diurutkan</title>
+</head>
+<body>
+    <h3>Data Tinggi Badan yang Diurutkan</h3>
+    <hr>
+    <div id="hasil"></div>
+
+    <script>
+        // Data tinggi badan
+        const dataTinggi = [
+            { nama: "Rose", tinggi: 178 },
+            { nama: "Magnolia", tinggi: 153 },
+            { nama: "Daisy", tinggi: 165 },
+            { nama: "Jasmine", tinggi: 161 },
+            { nama: "Violet", tinggi: 159 }
+        ];
+
+        // Urutkan berdasarkan nama (alfabet)
+        dataTinggi.sort(function(a, b) {
+            if (a.nama < b.nama) return -1;
+            if (a.nama > b.nama) return 1;
+            return 0;
+        });
+
+        // Tampilkan ke halaman web
+        let output = "";
+        for (let i = 0; i < dataTinggi.length; i++) {
+            output += `${dataTinggi[i].nama} : ${dataTinggi[i].tinggi} cm<br>`;
+        }
+        document.getElementById("hasil").innerHTML = output;
+    </script>
+</body>
+</html>

@@ -3,9 +3,9 @@ const tanggal = 1;
 const bulan = 5;
 const tahun = 1998;
 
-let namaBulan = "";
 
 // 2. Gunakan switch-case untuk menentukan nama bulan
+let namaBulan = "";
 switch (bulan) {
     case 1:
         namaBulan = "Januari";

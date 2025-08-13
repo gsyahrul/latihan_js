@@ -5,6 +5,7 @@ const hargaKeyboard = 350000;
 // Hitung
 const totalBelanja = hargaHeadset + hargaMouse + hargaKeyboard;
 
+// Let digunakan untuk deklarasi wdah yang nilainya bisa berubah
 let persentaseDiskon = 0;
 if (totalBelanja >= 800000) {
     persentaseDiskon = 0.15;

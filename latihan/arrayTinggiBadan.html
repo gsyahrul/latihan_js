@@ -6,7 +6,7 @@
 <body>
     <h3>Data Tinggi Badan yang Diurutkan</h3>
     <hr>
-    <div id="hasil"></div>
+    <div id="wakwaw"></div>
 
     <script>
         // Data tinggi badan
@@ -18,11 +18,10 @@
             { nama: "Violet", tinggi: 159 }
         ];
 
-        // Urutkan berdasarkan nama (alfabet)
+        // Urutkan berdasarkan nama (alfabet) dengan cara yang lebih sederhana
         dataTinggi.sort(function(a, b) {
-            if (a.nama < b.nama) return -1;
-            if (a.nama > b.nama) return 1;
-            return 0;
+            // localeCompare membandingkan string secara alfabet
+            return a.nama.localeCompare(b.nama);
         });
 
         // Tampilkan ke halaman web
@@ -30,7 +29,7 @@
         for (let i = 0; i < dataTinggi.length; i++) {
             output += `${dataTinggi[i].nama} : ${dataTinggi[i].tinggi} cm<br>`;
         }
-        document.getElementById("hasil").innerHTML = output;
+        document.getElementById("wakwaw").innerHTML = output;
     </script>
 </body>
 </html>

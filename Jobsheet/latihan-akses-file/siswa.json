@@ -1,0 +1,29 @@
+[
+  {
+    "nama": "Kaesang",
+    "kelas": "Web",
+    "nilai": [
+      78,
+      92,
+      87
+    ]
+  },
+  {
+    "nama": "Joko",
+    "kelas": "Kehutanan",
+    "nilai": [
+      85,
+      90,
+      88
+    ]
+  },
+  {
+    "nama": "Janetesh",
+    "kelas": "Kedokteran",
+    "nilai": [
+      82,
+      79,
+      91
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+SELECT fn_info_siswa ('1111101');

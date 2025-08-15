@@ -1,0 +1,1 @@
+CALL sp_insert_siswa ('1111101','Luffy',1);

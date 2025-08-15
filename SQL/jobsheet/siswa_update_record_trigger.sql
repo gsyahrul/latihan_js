@@ -1,0 +1,1 @@
+UPDATE siswa SET nama = 'Tony Chopper' where nis = '8888801';

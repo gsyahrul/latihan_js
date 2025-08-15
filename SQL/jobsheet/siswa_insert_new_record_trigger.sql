@@ -1,0 +1,1 @@
+INSERT INTO siswa VALUES ('8888801' , 'Chopper', '2');
